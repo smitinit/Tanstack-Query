@@ -1,0 +1,283 @@
+{
+  "posts": [
+    {
+      "title": "posts",
+      "views": "posts descritpton",
+      "id": 1
+    },
+    {
+      "title": "smittt",
+      "views": "svit vasad",
+      "id": 2
+    },
+    {
+      "title": "asdsadfadf",
+      "views": "asdafsdf",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "1. This is the first comment on post 10"
+    },
+    {
+      "id": "2",
+      "text": "2. another comment about post 1"
+    },
+    {
+      "id": "3",
+      "text": "3. Great insights on this topic!"
+    },
+    {
+      "id": "4",
+      "text": "4. I totally agree with your points!"
+    },
+    {
+      "id": "5",
+      "text": "5. Looking forward to more posts like this!"
+    },
+    {
+      "id": "6",
+      "text": "6. This really helped clarify things for me."
+    },
+    {
+      "id": "7",
+      "text": "7. Interesting perspective, thanks for sharing!"
+    },
+    {
+      "id": "8",
+      "text": "8. I learned something new from this post."
+    },
+    {
+      "id": "9",
+      "text": "9. Can't wait to see what you write next!"
+    },
+    {
+      "id": "10",
+      "text": "10. This is a must-read for anyone interested in this subject."
+    },
+    {
+      "id": "11",
+      "text": "11. I really appreciate the detail in this post."
+    },
+    {
+      "id": "12",
+      "text": "12. This post gave me a new perspective."
+    },
+    {
+      "id": "13",
+      "text": "13. Thanks for sharing this valuable information."
+    },
+    {
+      "id": "14",
+      "text": "14. This is exactly what I was looking for!"
+    },
+    {
+      "id": "15",
+      "text": "15. I found this post extremely helpful."
+    },
+    {
+      "id": "16",
+      "text": "16. A well-written and insightful post!"
+    },
+    {
+      "id": "17",
+      "text": "17. The examples in this post were spot on."
+    },
+    {
+      "id": "18",
+      "text": "18. I'll definitely be using these tips."
+    },
+    {
+      "id": "19",
+      "text": "19. Very useful post, I learned a lot."
+    },
+    {
+      "id": "20",
+      "text": "20. I've shared this post with my colleagues."
+    }
+  ],
+  "comments-if": [
+    {
+      "id": "1",
+      "text": "1. This is the first comment on post 10"
+    },
+    {
+      "id": "2",
+      "text": "2. another comment about post 1"
+    },
+    {
+      "id": "3",
+      "text": "3. Great insights on this topic!"
+    },
+    {
+      "id": "4",
+      "text": "4. I totally agree with your points!"
+    },
+    {
+      "id": "5",
+      "text": "5. Looking forward to more posts like this!"
+    },
+    {
+      "id": "6",
+      "text": "6. This really helped clarify things for me."
+    },
+    {
+      "id": "7",
+      "text": "7. Interesting perspective, thanks for sharing!"
+    },
+    {
+      "id": "8",
+      "text": "8. I learned something new from this post."
+    },
+    {
+      "id": "9",
+      "text": "9. Can't wait to see what you write next!"
+    },
+    {
+      "id": "10",
+      "text": "10. This is a must-read for anyone interested in this subject."
+    },
+    {
+      "id": "11",
+      "text": "11. I really appreciate the detail in this post."
+    },
+    {
+      "id": "12",
+      "text": "12. This post gave me a new perspective."
+    },
+    {
+      "id": "13",
+      "text": "13. Thanks for sharing this valuable information."
+    },
+    {
+      "id": "14",
+      "text": "14. This is exactly what I was looking for!"
+    },
+    {
+      "id": "15",
+      "text": "15. I found this post extremely helpful."
+    },
+    {
+      "id": "16",
+      "text": "16. A well-written and insightful post!"
+    },
+    {
+      "id": "17",
+      "text": "17. The examples in this post were spot on."
+    },
+    {
+      "id": "18",
+      "text": "18. I'll definitely be using these tips."
+    },
+    {
+      "id": "19",
+      "text": "19. Very useful post, I learned a lot."
+    },
+    {
+      "id": "20",
+      "text": "20. I've shared this post with my colleagues."
+    },
+    {
+      "id": "21",
+      "text": "21. This was a very insightful post.",
+      "postId": "1"
+    },
+    {
+      "id": "22",
+      "text": "22. I completely agree with your points.",
+      "postId": "1"
+    },
+    {
+      "id": "23",
+      "text": "23. Great analysis, keep up the good work.",
+      "postId": "1"
+    },
+    {
+      "id": "24",
+      "text": "24. This has changed my perspective on the topic.",
+      "postId": "1"
+    },
+    {
+      "id": "25",
+      "text": "25. Looking forward to more posts like this!",
+      "postId": "1"
+    },
+    {
+      "id": "26",
+      "text": "26. I enjoyed reading this post, very informative.",
+      "postId": "1"
+    },
+    {
+      "id": "27",
+      "text": "27. Do you have any more resources on this subject?",
+      "postId": "1"
+    },
+    {
+      "id": "28",
+      "text": "28. Thanks for sharing such detailed information.",
+      "postId": "1"
+    },
+    {
+      "id": "29",
+      "text": "29. I appreciate the depth of this post.",
+      "postId": "1"
+    },
+    {
+      "id": "30",
+      "text": "30. This really helped clear things up for me.",
+      "postId": "1"
+    },
+    {
+      "id": "31",
+      "text": "31. I learned something new today, thanks!",
+      "postId": "1"
+    },
+    {
+      "id": "32",
+      "text": "32. This post was extremely helpful.",
+      "postId": "1"
+    },
+    {
+      "id": "33",
+      "text": "33. The examples here are excellent.",
+      "postId": "1"
+    },
+    {
+      "id": "34",
+      "text": "34. Well structured and easy to follow.",
+      "postId": "1"
+    },
+    {
+      "id": "35",
+      "text": "35. This content is gold, appreciate the work!",
+      "postId": "1"
+    },
+    {
+      "id": "36",
+      "text": "36. You covered every important aspect.",
+      "postId": "1"
+    },
+    {
+      "id": "37",
+      "text": "37. Looking forward to more posts like this.",
+      "postId": "1"
+    },
+    {
+      "id": "38",
+      "text": "38. Your posts never disappoint, another great one!",
+      "postId": "1"
+    },
+    {
+      "id": "39",
+      "text": "39. Amazing, this post gave me a lot of clarity.",
+      "postId": "1"
+    },
+    {
+      "id": "40",
+      "text": "40. I appreciate your unique take on this topic.",
+      "postId": "1"
+    }
+  ]
+}

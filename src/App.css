@@ -1,0 +1,236 @@
+/* App.css */
+
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222831;
+  overflow: hidden;
+  color: #eeeeee;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #00adb5;
+  padding: 1rem;
+  display: flex;
+  position: static;
+}
+
+/* Navbar list */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Navbar items */
+.navbar li {
+  display: inline;
+}
+
+/* Navbar links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: transform 0.1s ease-in;
+}
+
+.navbar a:hover {
+  transform: scaleY(1.34);
+}
+
+/* Routes container */
+.routes {
+  /* margin-left: 15rem;
+  margin-right: 15rem; */
+  padding: 0 10rem 0 10rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 91vh;
+  margin: 1rem;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+.routes::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.routes::-webkit-scrollbar-track {
+  background: #ffffff4a; /* Background of the scrollbar track */
+  border-radius: 6px;
+}
+
+.routes::-webkit-scrollbar-thumb {
+  background-color: #989898;
+  border-radius: 6px;
+}
+
+.routes::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.post-container > a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.base {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.noscroll::-webkit-scrollbar {
+  width: 0;
+}
+/* Styling for post container */
+.post-container {
+  padding: 2rem;
+  border: 1px solid #97a4b942;
+  border-radius: 0.7rem;
+  background-color: #31363f;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  cursor: pointer;
+}
+.post-container:nth-child(1) {
+  margin-top: 2rem;
+}
+.post-container:nth-last-child(1) {
+  margin-bottom: 2rem;
+}
+
+/* Styling for post title */
+.post-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+/* Styling for post views */
+.post-views {
+  font-size: 1.2rem;
+  text-align: left;
+  transition: color 0.3s ease;
+  color: #eeeeeea5;
+}
+
+.post-container:hover {
+  background-color: #31363f00; /* Change to a slightly lighter background */
+  transform: scale(1.01); /* Slight zoom effect */
+}
+
+.post-container:hover .post-title {
+  color: #eeeeee; /* Change title color on hover */
+}
+
+.post-container:hover .post-views {
+  color: #eeeeee; /* Change views color on hover */
+}
+
+.formpost {
+  padding: 1rem;
+  background-color: #31363f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* display: flex;
+  justify-content: center; */
+}
+
+.inpdiv {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Style for the input fields */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  color: #eeeeee;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #cccccc49; /* Light border */
+  border-radius: 6px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn’t affect the width */
+  font-size: 16px; /* Adjust font size */
+  background-color: #222831;
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Change border color on focus */
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff; /* Focused input border color */
+  outline: none; /* Remove default outline */
+}
+label {
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Make the label text bold */
+  color: #eeeeee; /* Dark text color */
+  display: block; /* Ensure labels are block elements */
+  margin-bottom: 5px; /* Space between label and input */
+  letter-spacing: 0.5px; /* Slight letter spacing for better readability */
+}
+
+.btnsub {
+  width: 100%;
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  padding: 14px 20px; /* Button padding */
+  margin-top: 10px; /* Margin above the button */
+  border: none; /* No border */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Change button background on hover */
+.btnsub:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.btndiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
