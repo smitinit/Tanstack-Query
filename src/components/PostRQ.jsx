@@ -10,6 +10,9 @@ const fetchPost = () => {
 const postPost = (post) => {
   return axios.post("http://localhost:3000/posts", post);
 };
+const delquery = (id) => {
+  return axios.delete("http://localhost:3000/posts", id);
+};
 
 function PostRQ() {
   const [title, setTitle] = useState("");
@@ -109,7 +112,7 @@ function PostRQ() {
               <button type="submit" className="btnsub">
                 Post
               </button>
-              <button onClick={refetch} className="btnsub" disabled>
+              <button onClick={refetch} className="btnsub">
                 Click to Fetch
               </button>
             </div>
@@ -117,12 +120,26 @@ function PostRQ() {
         </div>
         {data?.data.map((post) => {
           return (
-            <div key={post.id} className="post-container">
+            // <div key={post.id} style={{ position: "relative" }}>
+            <div className="post-container" key={post.id}>
               <Link to={`/posts-rq/${post.id}`}>
                 <h1 className="post-title">{post.title}</h1>
                 <h2 className="post-views"> {post.views}</h2>
               </Link>
             </div>
+            /* <button
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  right: "5%",
+                  padding: "0.3rem",
+                  // transform: "translate(-50%,-50%)",
+                }}
+                onClick={delquery(post.id)}
+              >
+                del
+              </button> */
+            /* </div> */
           );
         })}
       </div>

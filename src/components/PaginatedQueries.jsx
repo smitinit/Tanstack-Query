@@ -12,6 +12,7 @@ const PaginatedQueries = () => {
     queryKey: ["comments", page], ///most impp
     queryFn: () => handleFetch(page),
     placeholderData: keepPreviousData, ///loading secrete ...no loading !! instead previous data showed till new data comes..
+    staleTime: 10000,
   });
 
   if (isError) return <p>Error: {error.message}</p>;
