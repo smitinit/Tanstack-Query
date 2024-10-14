@@ -11,7 +11,7 @@ function PostTraditional() {
       const response = await axios.get("http://localhost:3000/posts");
       setData(response.data);
     } catch (error) {
-      setError(true);
+      setError(error);
     } finally {
       setLoading(false);
     }

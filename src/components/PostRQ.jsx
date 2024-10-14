@@ -17,7 +17,7 @@ function PostRQ() {
 
   const queryClient = useQueryClient();
 
-  const { data, isLoading, isError, isFetching, error, refetch } = useQuery({
+  const { data, isLoading, isError, error, refetch } = useQuery({
     queryKey: ["posts-rq"], // unique key for all queries
     queryFn: fetchPost,
     // staleTime: 10000, // caches

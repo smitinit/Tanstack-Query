@@ -9,26 +9,19 @@ const handleFetch = ({ pageParam }) => {
   );
 };
 const InfiniteQueries = () => {
-  const {
-    data,
-    isLoading,
-    isError,
-    error,
-    fetchNextPage,
-    hasNextPage,
-    isFetchingNextPage,
-  } = useInfiniteQuery({
-    queryKey: ["comments-if"], ///most impp
-    queryFn: handleFetch,
-    initialPageParam: 1,
-    getNextPageParam: (_lastPage, allPages) => {
-      // 40 items         ||  40 items
-      // 8 each on 5pages ||  5 each on 8 pages
-      if (allPages.length < 10) return allPages.length + 1;
-      return undefined;
-    },
-    // placeholderData: keepPreviousData,  //idk it works or not!
-  });
+  const { data, isLoading, isError, error, fetchNextPage, isFetchingNextPage } =
+    useInfiniteQuery({
+      queryKey: ["comments-if"], ///most impp
+      queryFn: handleFetch,
+      initialPageParam: 1,
+      getNextPageParam: (_lastPage, allPages) => {
+        // 40 items         ||  40 items
+        // 8 each on 5pages ||  5 each on 8 pages
+        if (allPages.length < 10) return allPages.length + 1;
+        return undefined;
+      },
+      // placeholderData: keepPreviousData,  //idk it works or not!
+    });
 
   // console.log(data?.pages?.length);
 
